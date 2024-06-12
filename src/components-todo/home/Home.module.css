@@ -1,0 +1,136 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10rem;
+}
+
+.form__control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    width: 50%;
+    height: 600px;
+    border-right: 2px solid green;
+}
+
+.form__control label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form__control div {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.form__control input {
+    width: 70%;
+    font-size: 20px;
+    border: 2px solid green;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.form__control input:focus,
+.updateInput {
+    outline: none;
+}
+
+.form__control button {
+    font-size: 20px;
+    border: 2px solid green;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    color: green;
+    background-color: white;
+}
+
+.form__control button:hover {
+    background-color: green;
+    color: white;
+}
+
+.form__control button:active {
+    background-color: white;
+    color: green;
+}
+
+.task__container {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.tasks {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.tasks li {
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.tasks li p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.tasks li div:first-child {
+    width: 75%;
+}
+
+.tasks li div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tasks li button {
+    border-radius: 5px;
+    border: transparent;
+    padding: 3px 12px;
+    cursor: pointer;
+}
+
+.tasks li button:first-child {
+    background-color: #3575eb;
+}
+
+.tasks li button:nth-child(2) {
+    background-color: green;
+}
+
+.tasks li button:last-child {
+    background-color: red;
+}
+
+.updateInput {
+    font-size: 20px;
+    width: 100%;
+    color: red;
+    border: transparent;
+    border-bottom: 1px solid red;
+}
+
+.counter{
+    display: flex;
+    flex-direction: column;
+}
+
+.counter div button{
+    width: 40px;
+}

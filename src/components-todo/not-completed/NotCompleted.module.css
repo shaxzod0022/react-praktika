@@ -1,0 +1,35 @@
+.container {
+    padding: 10px 10rem;
+    text-align: center;
+}
+
+.tasks {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tasks li {
+    width: 60%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.tasks li p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.tasks li button {
+    background-color: #3575eb;
+    border-radius: 5px;
+    border: transparent;
+    padding: 3px 12px;
+    cursor: no-drop;
+}

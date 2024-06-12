@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 12px 1.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: white;
+    width: 284px;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.card__img {
+    padding: 2rem;
+    height: 50%;
+}
+
+.card__img img {
+    width: 150px;
+}
+
+.card__sena, .card__text{
+    text-align: left;
+}
+
+.card__sena strong{
+    font-size: 20px;
+}
+
+.card__text {
+    text-align: left;
+}
+
+.card__btns{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__btns button{
+    border: transparent;
+    padding: 6px 1rem;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card__btns .pilus{
+    background-color: #d3d4d6;
+}

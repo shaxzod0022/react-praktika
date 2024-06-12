@@ -1,0 +1,187 @@
+.container {
+    width: 100%;
+    max-width: 1536px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menyu {
+    width: 25%;
+    background-color: #040272;
+    color: white;
+    border-top-right-radius: 190px;
+    padding: 1.5rem;
+}
+
+.menyu h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.nav {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nav li button {
+    background: transparent;
+    border: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav li button:hover {
+    color: blueviolet;
+}
+
+.wather__info {
+    width: 40%;
+    padding: 2rem;
+}
+
+.wather__main {
+    border: 4px dashed #040272;
+    border-radius: 20px;
+    padding: 1rem;
+    position: relative;
+    color: white;
+    background-color: #302de4;
+}
+
+.wather__main img {
+    position: absolute;
+    width: 150px;
+    top: -60px;
+    right: -60px;
+}
+
+.wather__main h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.wather__main p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.wather__main div {
+    text-align: center;
+}
+
+.wather__main strong {
+    font-size: 80px;
+    text-align: center;
+}
+
+.wather__main strong sup {
+    font-size: 50px;
+}
+
+.details {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem
+}
+
+.box__item {
+    position: relative;
+    width: 40%;
+    height: 85px;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: #7e7ce0;
+}
+
+.box__item h3 {
+    position: absolute;
+    margin: 0;
+}
+
+.box__item strong {
+    font-size: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.date {
+    text-align: center;
+    width: 25%;
+    padding: 2rem;
+    background-color: #1d19d2;
+    border-top-left-radius: 190px;
+    color: white;
+}
+
+.date__box {
+    display: flex;
+    justify-content: center;
+}
+
+.date h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+table {
+    width: 80%;
+    border: 3px dashed #040272;
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: #7e7ce0;
+}
+
+th {
+    border-bottom: 2px solid #040272;
+    font-size: 25px;
+}
+
+td {
+    font-size: 20px;
+}
+
+.time div button {
+    border: transparent;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.time div input::placeholder {
+    color: #bcb8b8;
+}
+
+.time div input {
+    background: transparent;
+    border: transparent;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 50px;
+}
+
+.time div input:focus {
+    outline: none;
+}
+
+.time div button:first-child {
+    background-color: red;
+}
+
+.time div button:last-child {
+    background-color: green;
+}

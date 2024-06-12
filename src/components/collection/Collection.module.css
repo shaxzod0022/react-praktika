@@ -1,0 +1,106 @@
+.container__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.container__item__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 32%;
+    padding: 1rem;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.container__item__box h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.container__item__box:first-child {
+    color: white;
+    background-color: #eed115;
+    background-image: url("../images/Rectangle\ 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 0;
+    padding: 3rem;
+}
+
+.container__item__box:nth-child(2) div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container__item__box:nth-child(2) {
+    background-color: #05c7a0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__item__box:nth-child(2) img {
+    width: 150px;
+}
+
+.container__item__box:nth-child(2) strong {
+    color: #eed115;
+    font-size: 20px;
+}
+
+.container__item__box:nth-child(2) sub {
+    color: white;
+    font-size: 12px;
+}
+
+.container__item__box:nth-child(2) button {
+    background: #eebb15;
+    border: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 6px;
+    width: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container__item__box:nth-child(3) {
+    background-image: url("../images/brooke-lark-08bOYnH_r_E-unsplash\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+}
+
+.btns{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    top: 45%;
+}
+
+.btns button{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: transparent;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.btns button:hover{
+    transition: 0.2s;
+    background-color: rgb(238, 234, 234);
+}

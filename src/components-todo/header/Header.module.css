@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10rem;
+    border-bottom: 1px solid #3f3e3e;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3f3e3e;
+}
+
+.navbar ul li a:hover {
+    color: green;
+    transition: 0.3s;
+}
